@@ -17,3 +17,13 @@ OldestPerson (max, comparator)
 ==============================
 
 Get oldest person from the collection
+
+Sum (reduce)
+============
+
+Sum all elements of a collection
+
+Kids (filter, map)
+==================
+
+Get names of all kids (under age of 18)

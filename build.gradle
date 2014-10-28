@@ -1,6 +1,9 @@
 apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
 
-sourceCompatibility = 1.5
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 version = '1.0'
 
 repositories {
@@ -10,4 +13,10 @@ repositories {
 dependencies {
     testCompile 'junit:junit:4.+'
     testCompile 'org.assertj:assertj-core:1.+'
+}
+
+idea {
+    project {
+        languageLevel = '1.8'
+    }
 }

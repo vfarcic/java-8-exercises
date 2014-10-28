@@ -6,9 +6,9 @@ import java.util.List;
 public class OldestPerson {
 
     public static Person getOldestPerson7(List<Person> people) {
-        Person oldestPerson = null;
+        Person oldestPerson = new Person("", 0);
         for (Person person : people) {
-            if (oldestPerson == null || person.getAge() > oldestPerson.getAge()) {
+            if (person.getAge() > oldestPerson.getAge()) {
                 oldestPerson = person;
             }
         }

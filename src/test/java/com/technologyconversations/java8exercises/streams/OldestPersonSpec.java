@@ -14,7 +14,7 @@ Get oldest person from the collection
 public class OldestPersonSpec {
 
     @Test
-    public void transformShouldConvertCollectionElementsToUpperCase() {
+    public void getOldestPersonShouldReturnOldestPerson() {
         Person sara = new Person("Sara", 4);
         Person viktor = new Person("Viktor", 40);
         Person eva = new Person("Eva", 42);

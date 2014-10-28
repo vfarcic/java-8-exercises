@@ -12,3 +12,8 @@ FlatCollection (flatMap)
 ========================
 
 Flatten multidimensional collection
+
+OldestPerson (max, comparator)
+==============================
+
+Get oldest person from the collection

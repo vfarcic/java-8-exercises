@@ -27,3 +27,8 @@ Kids (filter, map)
 ==================
 
 Get names of all kids (under age of 18)
+
+PeopleStats (summaryStatistics)
+===============================
+
+Get people statistics: average age, count, maximum age, minimum age and sum og all ages.

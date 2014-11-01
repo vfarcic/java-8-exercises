@@ -10,7 +10,7 @@ import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /*
-Get people grouped by nationality
+Partition adults and kids
  */
 public class PartitioningSpec {
 

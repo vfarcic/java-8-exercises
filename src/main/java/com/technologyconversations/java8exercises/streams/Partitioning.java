@@ -10,11 +10,7 @@ public class Partitioning {
         map.put(true, new ArrayList<>());
         map.put(false, new ArrayList<>());
         for (Person person : people) {
-            if (person.getAge() >= 18) {
-                map.get(true).add(person);
-            } else {
-                map.get(false).add(person);
-            }
+            map.get(person.getAge() >= 18).add(person);
         }
         return map;
     }

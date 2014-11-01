@@ -7,6 +7,13 @@ public class Person {
         age = ageValue;
     }
 
+    public Person(final String nameValue, final int ageValue, final String nationalityValue) {
+        name = nameValue;
+        age = ageValue;
+        nationality = nationalityValue;
+    }
+
+
     private String name;
     public String getName() {
         return name;
@@ -15,6 +22,11 @@ public class Person {
     private int age;
     public int getAge() {
         return age;
+    }
+
+    private String nationality;
+    public String getNationality() {
+        return nationality;
     }
 
 }

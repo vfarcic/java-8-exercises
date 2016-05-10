@@ -1,6 +1,6 @@
 Prepare project for your favorite IDE
 ===================================
-Use gradle to import dependencies and create ide-specific project files.  Gralde wrapper scripts are included (no need to download anything new)
+Use gradle to import dependencies and create ide-specific project files.  Gradle wrapper scripts are included (no need to download anything new)
 ```
 ./gradlew eclipse   # Eclipse
 ./gradlew idea      # IntelliJ IDEA

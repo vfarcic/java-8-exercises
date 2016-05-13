@@ -7,6 +7,9 @@ import static java.util.stream.Collectors.toList;
 
 public class ToUpperCase {
 
+    private ToUpperCase() {
+    }
+
     public static List<String> transform7(List<String> collection) {
         List<String> newCollection = new ArrayList<>();
         for (String element : collection) {

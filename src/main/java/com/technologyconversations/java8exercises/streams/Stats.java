@@ -2,6 +2,11 @@ package com.technologyconversations.java8exercises.streams;
 
 public class Stats {
 
+    private long count;
+    private long sum;
+    private int min;
+    private int max;
+
     public Stats(final long countValue,
                  final long sumValue,
                  final int minValue,
@@ -12,22 +17,19 @@ public class Stats {
         max = maxValue;
     }
 
-    private long count;
+
     public final long getCount() {
         return count;
     }
 
-    private long sum;
     public final long getSum() {
         return sum;
     }
 
-    private int min;
     public final int getMin() {
         return min;
     }
 
-    private int max;
     public final int getMax() {
         return max;
     }

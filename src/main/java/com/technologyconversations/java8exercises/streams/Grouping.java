@@ -9,6 +9,9 @@ import static java.util.stream.Collectors.*;
 
 public class Grouping {
 
+    private Grouping() {
+    }
+
     public static Map<String, List<Person>> groupByNationality7(List<Person> people) {
         Map<String, List<Person>> map = new HashMap<>();
         for (Person person : people) {

@@ -4,6 +4,9 @@ import java.util.List;
 
 public class Sum {
 
+    private Sum() {
+    }
+
     public static int calculate7(List<Integer> numbers) {
         int total = 0;
         for (int number : numbers) {

@@ -5,6 +5,9 @@ import static java.util.stream.Collectors.*;
 
 public class Partitioning {
 
+    private Partitioning() {
+    }
+
     public static Map<Boolean, List<Person>> partitionAdults7(List<Person> people) {
         Map<Boolean, List<Person>> map = new HashMap<>();
         map.put(true, new ArrayList<>());

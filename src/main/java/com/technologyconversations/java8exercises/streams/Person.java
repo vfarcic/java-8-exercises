@@ -2,6 +2,10 @@ package com.technologyconversations.java8exercises.streams;
 
 public class Person {
 
+    private String name;
+    private int age;
+    private String nationality;
+
     public Person(final String nameValue, final int ageValue) {
         name = nameValue;
         age = ageValue;
@@ -13,18 +17,14 @@ public class Person {
         nationality = nationalityValue;
     }
 
-
-    private String name;
     public String getName() {
         return name;
     }
 
-    private int age;
     public int getAge() {
         return age;
     }
 
-    private String nationality;
     public String getNationality() {
         return nationality;
     }

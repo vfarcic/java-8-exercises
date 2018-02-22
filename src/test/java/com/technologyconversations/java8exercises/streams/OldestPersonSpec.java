@@ -8,9 +8,6 @@ import static com.technologyconversations.java8exercises.streams.OldestPerson.*;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 
-/*
-Get oldest person from the collection
- */
 public class OldestPersonSpec {
 
     @Test

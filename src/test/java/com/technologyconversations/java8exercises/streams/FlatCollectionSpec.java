@@ -8,9 +8,6 @@ import static com.technologyconversations.java8exercises.streams.FlatCollection.
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 
-/*
-Flatten multidimensional collection
- */
 public class FlatCollectionSpec {
 
     @Test

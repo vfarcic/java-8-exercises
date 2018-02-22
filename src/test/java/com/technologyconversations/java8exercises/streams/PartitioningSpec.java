@@ -9,9 +9,6 @@ import static com.technologyconversations.java8exercises.streams.Partitioning.*;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 
-/*
-Partition adults and kids
- */
 public class PartitioningSpec {
 
     @Test

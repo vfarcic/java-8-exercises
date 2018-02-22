@@ -14,7 +14,7 @@ Sum all elements of a collection
 public class SumSpec {
 
     @Test
-    public void transformShouldConvertCollectionElementsToUpperCase() {
+    public void calculateShouldReturnSumOfAllIntegersInCollection() {
         List<Integer> numbers = asList(1, 2, 3, 4, 5);
         assertThat(calculate(numbers)).isEqualTo(1 + 2 + 3 + 4 + 5);
     }

@@ -8,9 +8,6 @@ import static com.technologyconversations.java8exercises.streams.ToUpperCase.*;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 
-/*
-Convert elements of a collection to upper case.
- */
 public class ToUpperCaseSpec {
 
     @Test
